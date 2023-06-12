@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Profil Saya</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 20px;
+
+        }
+
+        h1 {
+
+            text-align: center;
+
+        }
+
+        .container {
+
+            max-width: 600px;
+
+            margin: 0 auto;
+
+        }
+
+        .profile-picture {
+
+            display: block;
+
+            margin: 0 auto;
+
+            width: 200px;
+
+            border-radius: 50%;
+
+        }
+
+        .profile-info {
+
+            margin-top: 20px;
+
+            text-align: center;
+
+        }
+
+        .profile-info p {
+
+            margin-bottom: 10px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Profil Saya</h1>
+
+        <img src="foto_profil.jpg" alt="Foto Profil" class="profile-picture">
+
+        <div class="profile-info">
+
+            <p>Nama: John Doe</p>
+
+            <p>Umur: 25 tahun</p>
+
+            <p>Pekerjaan: Web Developer</p>
+
+            <p>Lokasi: Jakarta, Indonesia</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
